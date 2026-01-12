@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ravenze.co Access</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>Selamat Datang di Grup<br><span>Ravenze.co</span></h1>
+  <p>Komunitas private Ravenze.co.<br>Akses grup hanya diberikan setelah pengisian formulir.</p>
+
+  <form id="accessForm">
+    <label>Nama</label>
+    <input name="nama" type="text" placeholder="Masukkan nama" required>
+
+    <label>Nomor HP</label>
+    <input name="hp" type="text" placeholder="Masukkan nomor HP" required>
+
+    <label>Entry Code</label>
+    <input name="entryCode" type="text" placeholder="Masukkan kode" required>
+
+    <button type="submit">Ajukan Akses</button>
+  </form>
+
+  <button id="waBtn" class="locked" disabled>🔒 Masuk Grup WA</button>
+  <small id="lockText">Isi form untuk membuka akses</small>
+
+  <div class="card">
+    <h2>Peraturan Grup</h2>
+    <ul class="rules">
+      <li>Gunakan bahasa yang sopan dan profesional</li>
+      <li>Dilarang spam dan promosi tanpa izin</li>
+      <li>Hormati privasi anggota lain</li>
+      <li>Ikuti arahan admin</li>
+    </ul>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
